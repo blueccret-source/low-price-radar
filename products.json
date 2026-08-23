@@ -62,6 +62,15 @@
       "reference_regular_price": 339,
       "unit_label": "kg",
       "unit_divisor": 2
+    },
+    {
+      "id": "老食萃-有機枸杞-5lpqyt",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "老食萃 有機枸杞",
+      "url": "https://www.costco.com.tw/Food-Dining/Groceries/Baking-Dried-Goods/Lao-Shi-Cui-Organic-Goji-Berry-600-g/p/126818?srsltid=AfmBOoqEnjkwibQX-VjA1TUYd3KxoBJhABBIdChoQK0nLUxdAoF-C4wM",
+      "fallback_price": null,
+      "unit_label": ""
     }
   ]
 }
