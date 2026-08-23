@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T17:17:50+08:00",
+  "updated_at": "2026-08-23T17:25:13+08:00",
   "products": [
     {
       "id": "quaker-oats",
@@ -106,6 +106,24 @@
       "history_points": 1,
       "hot": true,
       "reason": "大幅折扣",
+      "source": "live",
+      "error": null
+    },
+    {
+      "id": "老食萃-有機枸杞-5lpqyt",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "老食萃 有機枸杞",
+      "url": "https://www.costco.com.tw/Food-Dining/Groceries/Baking-Dried-Goods/Lao-Shi-Cui-Organic-Goji-Berry-600-g/p/126818?srsltid=AfmBOoqEnjkwibQX-VjA1TUYd3KxoBJhABBIdChoQK0nLUxdAoF-C4wM",
+      "price": 519.0,
+      "old_price": null,
+      "discount_pct": null,
+      "unit_price": 519.0,
+      "unit_label": "",
+      "history_low": 519.0,
+      "history_points": 1,
+      "hot": false,
+      "reason": "持續觀察",
       "source": "live",
       "error": null
     }
