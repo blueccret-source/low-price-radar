@@ -1,0 +1,67 @@
+{
+  "near_low_ratio": 1.05,
+  "min_history_points": 3,
+  "products": [
+    {
+      "id": "quaker-oats",
+      "store": "costco",
+      "store_name": "好市多 Costco",
+      "name": "桂格 有機大燕麥片 935g × 2入",
+      "url": "https://www.costco.com.tw/Food-Dining/Drinks/Powdered-Drink-Mix-Cereal-Oats/Quaker-Organic-Whole-Oats-935-g-X-2-Count/p/116958",
+      "fallback_price": 439,
+      "unit_label": "100g",
+      "unit_divisor": 18.7
+    },
+    {
+      "id": "greenme-brown-rice",
+      "store": "costco",
+      "store_name": "好市多 Costco",
+      "name": "銀川 有機一等糙米 3kg",
+      "url": "https://www.costco.com.tw/Food-Dining/Groceries/Rice-Noodles/Greenme-Organic-Brown-Rice-3-kg/p/124095",
+      "fallback_price": 359,
+      "unit_label": "kg",
+      "unit_divisor": 3
+    },
+    {
+      "id": "maestro-olive-oil",
+      "store": "costco",
+      "store_name": "好市多 Costco",
+      "name": "Maestro Oleario 有機冷壓初榨橄欖油 1L",
+      "url": "https://www.costco.com.tw/Food-Dining/Groceries/Cooking-Oil-Sauces/Maestro-Oleario-Organic-Extra-Virgin-Olive-Oil-1-L/p/115852",
+      "fallback_price": 419,
+      "unit_label": "L",
+      "unit_divisor": 1
+    },
+    {
+      "id": "therabreath-icy-mint",
+      "store": "costco",
+      "store_name": "好市多 Costco",
+      "name": "TheraBreath 凱斯博士 漱口水 冰涼薄荷 1L × 2入",
+      "url": "https://www.costco.com.tw/Health-Beauty/Personal-Care/Oral-Care/TheraBreath-Fresh-Breath-Oral-Rinse-Icy-Mint-1-L-X-2-Count/p/287808",
+      "fallback_price": 775,
+      "unit_label": "L",
+      "unit_divisor": 2
+    },
+    {
+      "id": "charming-chicken-leg",
+      "store": "costco",
+      "store_name": "好市多 Costco",
+      "name": "洽富 台灣冷凍氣冷雞雞腿切塊 600g × 8入",
+      "url": "https://www.costco.com.tw/Food-Dining/Frozen-Fresh-Food/Frozen-Seafood-Meat/Charming-Food-Taiwan-Frozen-Air-Chilled-Chopped-Chicken-Leg-600g-X-8-Count/p/141711",
+      "fallback_price": 1099,
+      "unit_label": "kg",
+      "unit_divisor": 4.8
+    },
+    {
+      "id": "born-good-rice",
+      "store": "wanjiafu",
+      "store_name": "萬家福",
+      "name": "天生好米 鮮活有機糙米 2kg",
+      "url": "https://online.uni-prosperity.com.tw/zh/%E5%A4%A9%E7%94%9F%E5%A5%BD%E7%B1%B3/1451112000101.html",
+      "fallback_price": 199,
+      "reference_regular_price": 339,
+      "unit_label": "kg",
+      "unit_divisor": 2
+    }
+  ]
+}
