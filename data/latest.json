@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T17:39:26+08:00",
+  "updated_at": "2026-08-23T17:41:07+08:00",
   "products": [
     {
       "id": "quaker-oats",
@@ -161,6 +161,24 @@
       "hot": false,
       "reason": "持續觀察",
       "source": "fallback",
+      "error": null
+    },
+    {
+      "id": "米森-有機黑芝麻粉-500g-2包-5ma99w",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "米森 有機黑芝麻粉 500g*2包",
+      "url": "https://www.costco.com.tw/Food-Dining/Drinks/Powdered-Drink-Mix-Cereal-Oats/Vilson-Organic-Black-Sesame-Seed-Powder-500-g-X-2-Pack/p/112845?srsltid=AfmBOorUea_F1zhvBAc523Y6ucnMIcR_F_sBdTN_yKDu6pPu9lJeavD5",
+      "price": 615.0,
+      "old_price": null,
+      "discount_pct": null,
+      "unit_price": 615.0,
+      "unit_label": "",
+      "history_low": 615.0,
+      "history_points": 1,
+      "hot": false,
+      "reason": "持續觀察",
+      "source": "live",
       "error": null
     }
   ]
