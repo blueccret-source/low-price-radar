@@ -89,6 +89,15 @@
       "url": "https://www.costco.com.tw/Warehouse-Only/Food-Beverages/Water-Beverages/Moccona-Medium-Roast-Instant-Coffee-400-g/p/128828?srsltid=AfmBOoo9JRVaZB81o_Pxq7h5DgEEeg8vl5DQiobTNQUZtfF3U2BGHwRb",
       "fallback_price": null,
       "unit_label": ""
+    },
+    {
+      "id": "米森-有機黑芝麻粉-500g-2包-5ma99w",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "米森 有機黑芝麻粉 500g*2包",
+      "url": "https://www.costco.com.tw/Food-Dining/Drinks/Powdered-Drink-Mix-Cereal-Oats/Vilson-Organic-Black-Sesame-Seed-Powder-500-g-X-2-Pack/p/112845?srsltid=AfmBOorUea_F1zhvBAc523Y6ucnMIcR_F_sBdTN_yKDu6pPu9lJeavD5",
+      "fallback_price": null,
+      "unit_label": ""
     }
   ]
 }
