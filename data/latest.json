@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T17:41:07+08:00",
+  "updated_at": "2026-08-23T17:43:16+08:00",
   "products": [
     {
       "id": "quaker-oats",
@@ -175,6 +175,24 @@
       "unit_price": 615.0,
       "unit_label": "",
       "history_low": 615.0,
+      "history_points": 1,
+      "hot": false,
+      "reason": "持續觀察",
+      "source": "live",
+      "error": null
+    },
+    {
+      "id": "thinkbaby-新寶貝純物理防曬霜-spf-50-89毫升-x-2入-5mczgs",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "Thinkbaby 新寶貝純物理防曬霜 SPF 50 89毫升 X 2入",
+      "url": "https://www.costco.com.tw/Health-Beauty/Beauty-Skin-Care/Sun-Care/Thinkbaby-Sunscreen-SPF-50-89-ml-X-2-Pack/p/117096?srsltid=AfmBOorivMUaHQ0PbiLZGTMXIcXfOprPYurwTz7O6q7oRPWIXFCVd14n",
+      "price": 397.0,
+      "old_price": null,
+      "discount_pct": null,
+      "unit_price": 397.0,
+      "unit_label": "",
+      "history_low": 397.0,
       "history_points": 1,
       "hot": false,
       "reason": "持續觀察",
