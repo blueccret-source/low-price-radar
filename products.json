@@ -80,6 +80,15 @@
       "url": "https://www.costco.com.tw/Household-Baby-Toys/Baby/Baby-Diapers-Wipes/MamyPoko-Doraemon-Diaper-Pants-Size-M-216-Piece/p/526085?srsltid=AfmBOopeXvn9xUbPHM4r6Nr_Wf-KXR1KaUZvyT2HC6mV3d5WmNq98ErJ",
       "fallback_price": null,
       "unit_label": ""
+    },
+    {
+      "id": "moccona-中烘焙即溶咖啡粉-400公克-5m4g21",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "moccona 中烘焙即溶咖啡粉 400公克",
+      "url": "https://www.costco.com.tw/Warehouse-Only/Food-Beverages/Water-Beverages/Moccona-Medium-Roast-Instant-Coffee-400-g/p/128828?srsltid=AfmBOoo9JRVaZB81o_Pxq7h5DgEEeg8vl5DQiobTNQUZtfF3U2BGHwRb",
+      "fallback_price": null,
+      "unit_label": ""
     }
   ]
 }
