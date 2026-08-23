@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T17:34:41+08:00",
+  "updated_at": "2026-08-23T17:36:40+08:00",
   "products": [
     {
       "id": "quaker-oats",
@@ -143,6 +143,24 @@
       "hot": false,
       "reason": "持續觀察",
       "source": "live",
+      "error": null
+    },
+    {
+      "id": "moccona-中烘焙即溶咖啡粉-400公克-5m4g21",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "moccona 中烘焙即溶咖啡粉 400公克",
+      "url": "https://www.costco.com.tw/Warehouse-Only/Food-Beverages/Water-Beverages/Moccona-Medium-Roast-Instant-Coffee-400-g/p/128828?srsltid=AfmBOoo9JRVaZB81o_Pxq7h5DgEEeg8vl5DQiobTNQUZtfF3U2BGHwRb",
+      "price": null,
+      "old_price": null,
+      "discount_pct": null,
+      "unit_price": null,
+      "unit_label": "",
+      "history_low": null,
+      "history_points": 0,
+      "hot": false,
+      "reason": "持續觀察",
+      "source": "fallback",
       "error": null
     }
   ]
