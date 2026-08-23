@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T17:25:13+08:00",
+  "updated_at": "2026-08-23T17:28:41+08:00",
   "products": [
     {
       "id": "quaker-oats",
@@ -121,6 +121,24 @@
       "unit_price": 519.0,
       "unit_label": "",
       "history_low": 519.0,
+      "history_points": 1,
+      "hot": false,
+      "reason": "持續觀察",
+      "source": "live",
+      "error": null
+    },
+    {
+      "id": "哆啦a夢輕巧褲-日本境內版-m號-216片-5lu7u9",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "哆啦A夢輕巧褲 日本境內版 M號 216片",
+      "url": "https://www.costco.com.tw/Household-Baby-Toys/Baby/Baby-Diapers-Wipes/MamyPoko-Doraemon-Diaper-Pants-Size-M-216-Piece/p/526085?srsltid=AfmBOopeXvn9xUbPHM4r6Nr_Wf-KXR1KaUZvyT2HC6mV3d5WmNq98ErJ",
+      "price": 1049.0,
+      "old_price": null,
+      "discount_pct": null,
+      "unit_price": 1049.0,
+      "unit_label": "",
+      "history_low": 1049.0,
       "history_points": 1,
       "hot": false,
       "reason": "持續觀察",
