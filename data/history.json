@@ -1,10 +1,46 @@
 {
   "products": {
-    "quaker-oats": [{"date":"2026-08-23","price":439,"source":"seed"}],
-    "greenme-brown-rice": [{"date":"2026-08-23","price":359,"source":"seed"}],
-    "maestro-olive-oil": [{"date":"2026-08-23","price":419,"source":"seed"}],
-    "therabreath-icy-mint": [{"date":"2026-08-23","price":775,"source":"seed"}],
-    "charming-chicken-leg": [{"date":"2026-08-23","price":1099,"source":"seed"}],
-    "born-good-rice": [{"date":"2026-08-23","price":199,"source":"seed"}]
+    "quaker-oats": [
+      {
+        "date": "2026-08-23",
+        "price": 439.0,
+        "source": "live"
+      }
+    ],
+    "greenme-brown-rice": [
+      {
+        "date": "2026-08-23",
+        "price": 359.0,
+        "source": "live"
+      }
+    ],
+    "maestro-olive-oil": [
+      {
+        "date": "2026-08-23",
+        "price": 419.0,
+        "source": "live"
+      }
+    ],
+    "therabreath-icy-mint": [
+      {
+        "date": "2026-08-23",
+        "price": 775.0,
+        "source": "live"
+      }
+    ],
+    "charming-chicken-leg": [
+      {
+        "date": "2026-08-23",
+        "price": 1099.0,
+        "source": "live"
+      }
+    ],
+    "born-good-rice": [
+      {
+        "date": "2026-08-23",
+        "price": 199.0,
+        "source": "live"
+      }
+    ]
   }
 }
