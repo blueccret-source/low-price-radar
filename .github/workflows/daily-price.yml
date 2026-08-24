@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
   pages: write
   id-token: write
 
@@ -40,11 +41,51 @@ jobs:
       - name: Update prices and history
         run: python scripts/update_prices.py
 
+      - name: Notify real bargains via GitHub
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY'
+          import json, os, subprocess
+          from pathlib import Path
+
+          data = json.loads(Path('data/alerts.json').read_text(encoding='utf-8'))
+          alerts = data.get('alerts', [])
+          if not alerts:
+              print('No new bargain alerts')
+              raise SystemExit(0)
+
+          lines = ['## 🔥 真正划算特價', '']
+          for p in alerts:
+              price = f"NT${p['price']:,.0f}" if p.get('price') is not None else '價格未知'
+              old = f"；原價 NT${p['old_price']:,.0f}" if p.get('old_price') else ''
+              disc = f"；折扣 {p['discount_pct']}%" if p.get('discount_pct') is not None else ''
+              unit = f"；單位價 NT${p['unit_price']:,.2f}/{p['unit_label']}" if p.get('unit_price') is not None and p.get('unit_label') else ''
+              lines += [
+                  f"### {p['name']}",
+                  f"- 商店：{p['store_name']}",
+                  f"- 價格：**{price}**{old}{disc}",
+                  f"- 判定：**{p['reason']}**；歷史低價 NT${p['history_low']:,.0f}" if p.get('history_low') is not None else f"- 判定：**{p['reason']}**",
+                  f"- 單位價格：NT${p['unit_price']:,.2f}/{p['unit_label']}" if p.get('unit_price') is not None and p.get('unit_label') else '',
+                  f"- [直接商品頁]({p['url']})",
+                  ''
+              ]
+          body = '\n'.join(x for x in lines if x != '')
+          title = f"🔥 低價通知：{len(alerts)} 項商品值得買"
+          subprocess.run([
+              'gh', 'issue', 'create',
+              '--repo', os.environ['GITHUB_REPOSITORY'],
+              '--title', title,
+              '--body', body,
+              '--assignee', 'blueccret-source'
+          ], check=True)
+          PY
+
       - name: Commit updated price data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/latest.json data/history.json
+          git add data/latest.json data/history.json data/alert-state.json
           if git diff --cached --quiet; then
             echo "No data changes"
           else
