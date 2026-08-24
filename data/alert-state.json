@@ -1,0 +1,45 @@
+{
+  "products": {
+    "quaker-oats": {
+      "active": false,
+      "last_price": null
+    },
+    "greenme-brown-rice": {
+      "active": false,
+      "last_price": null
+    },
+    "maestro-olive-oil": {
+      "active": false,
+      "last_price": null
+    },
+    "therabreath-icy-mint": {
+      "active": false,
+      "last_price": null
+    },
+    "charming-chicken-leg": {
+      "active": false,
+      "last_price": null
+    },
+    "born-good-rice": {
+      "active": true,
+      "last_price": 199.0,
+      "last_alert_at": "2026-08-24T11:11:16+08:00"
+    },
+    "老食萃-有機枸杞-5lpqyt": {
+      "active": false,
+      "last_price": null
+    },
+    "哆啦a夢輕巧褲-日本境內版-m號-216片-5lu7u9": {
+      "active": false,
+      "last_price": null
+    },
+    "米森-有機黑芝麻粉-500g-2包-5ma99w": {
+      "active": false,
+      "last_price": null
+    },
+    "thinkbaby-新寶貝純物理防曬霜-spf-50-89毫升-x-2入-5mczgs": {
+      "active": false,
+      "last_price": null
+    }
+  }
+}
