@@ -107,6 +107,15 @@
       "url": "https://www.tw.coupang.com/products/291018700210189?itemId=279103936643074&vendorItemId=279102879645701&pageType=PRODUCT&pageValue=291018700210189&wPcid=17320178790050208567203&wRef=www.google.com&wTime=20260824185913&redirect=landing&lptag=279103936643074&gclid=Cj0KCQjw16_UBhCqARIsAIdOaXzJIsyHkJFF0xFCMtQfOnu3S_dBM_Oej2JhEB52PSkFb4auD0NIUSkaAoxdEALw_wcB&af_c_id=22530808736&mcid=0bbdff2956094edca8666bfea51a101d&af_sub5=GSSDP&src=1012016&campaignid=22530808736&adgroupid=178605374825&ctag=291018700210189&spec=10505002&addtag=400&network=g",
       "fallback_price": null,
       "unit_label": ""
+    },
+    {
+      "id": "nature-s-earthly-choice-奇亞籽-鼠尾草籽-907公克-72gs1e",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "Nature's Earthly Choice 奇亞籽 鼠尾草籽 907公克",
+      "url": "https://www.costco.com.tw/Food-Dining/Groceries/Baking-Dried-Goods/Natures-Earthly-Choice-Chia-907-g/p/582057",
+      "fallback_price": null,
+      "unit_label": ""
     }
   ]
 }
