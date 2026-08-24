@@ -2,6 +2,12 @@ name: Daily price radar
 
 on:
   workflow_dispatch:
+    inputs:
+      test_notification:
+        description: '由 github-actions[bot] 強制建立一則測試 Issue'
+        required: false
+        default: false
+        type: boolean
   push:
     branches: [main]
     paths:
@@ -40,6 +46,17 @@ jobs:
 
       - name: Update prices and history
         run: python scripts/update_prices.py
+
+      - name: Send manual test notification
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.test_notification == true }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh issue create \
+            --repo "$GITHUB_REPOSITORY" \
+            --title "🔔 GitHub Actions Bot 推播測試" \
+            --body "@blueccret-source\n\n這則 Issue 是由 **github-actions[bot]** 自動建立，用來測試 GitHub Mobile Push。\n\n如果手機跳出通知，代表低價雷達未來的自動通知鏈已正常。" \
+            --assignee blueccret-source
 
       - name: Notify real bargains via GitHub
         env:
