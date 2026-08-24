@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T18:01:02+08:00",
+  "updated_at": "2026-08-24T18:01:52+08:00",
   "products": [
     {
       "id": "quaker-oats",
@@ -198,6 +198,24 @@
       "reason": "持續觀察",
       "source": "fallback",
       "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "nature-s-earthly-choice-奇亞籽-鼠尾草籽-907公克-72gs1e",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "Nature's Earthly Choice 奇亞籽 鼠尾草籽 907公克",
+      "url": "https://www.costco.com.tw/Food-Dining/Groceries/Baking-Dried-Goods/Natures-Earthly-Choice-Chia-907-g/p/582057",
+      "price": 319.0,
+      "old_price": null,
+      "discount_pct": null,
+      "unit_price": 319.0,
+      "unit_label": "",
+      "history_low": 319.0,
+      "history_points": 1,
+      "hot": false,
+      "reason": "持續觀察",
+      "source": "live",
+      "error": null
     }
   ]
 }
