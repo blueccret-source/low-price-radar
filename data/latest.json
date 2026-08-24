@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T18:01:52+08:00",
+  "updated_at": "2026-08-24T18:02:47+08:00",
   "products": [
     {
       "id": "quaker-oats",
@@ -211,6 +211,24 @@
       "unit_price": 319.0,
       "unit_label": "",
       "history_low": 319.0,
+      "history_points": 1,
+      "hot": false,
+      "reason": "持續觀察",
+      "source": "live",
+      "error": null
+    },
+    {
+      "id": "亞細亞田園-冷凍生毛豆仁-1公斤-x-5入-72hbwi",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "亞細亞田園 冷凍生毛豆仁 1公斤 X 5入",
+      "url": "https://www.costco.com.tw/Food-Dining/Frozen-Fresh-Food/Frozen-Fruits-Vegetables/Asia-Frozen-Shelled-Edamame-1-kg-X-5-Pack/p/863731",
+      "price": 819.0,
+      "old_price": null,
+      "discount_pct": null,
+      "unit_price": 819.0,
+      "unit_label": "",
+      "history_low": 819.0,
       "history_points": 1,
       "hot": false,
       "reason": "持續觀察",
