@@ -6,6 +6,8 @@ ROOT = Path(__file__).resolve().parents[1]
 CFG = json.loads((ROOT / 'products.json').read_text(encoding='utf-8'))
 LATEST = ROOT / 'data' / 'latest.json'
 HISTORY = ROOT / 'data' / 'history.json'
+ALERT_STATE = ROOT / 'data' / 'alert-state.json'
+ALERTS = ROOT / 'data' / 'alerts.json'
 TW = timezone(timedelta(hours=8))
 TODAY = datetime.now(TW).date().isoformat()
 
@@ -55,7 +57,9 @@ def save_json(path, obj):
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
 
 history = load_json(HISTORY, {'products': {}})
+alert_state = load_json(ALERT_STATE, {'products': {}})
 latest = {'updated_at': datetime.now(TW).isoformat(timespec='seconds'), 'products': []}
+alerts = []
 near_ratio = float(CFG.get('near_low_ratio', 1.05))
 min_points = int(CFG.get('min_history_points', 3))
 
@@ -98,21 +102,33 @@ for p in CFG['products']:
     near_low = bool(price and hist_low and points >= min_points and price <= hist_low * near_ratio)
     strong_discount = bool(discount_pct is not None and discount_pct >= 20)
     hot = near_low or strong_discount
+    reason = '接近歷史低價' if near_low else ('大幅折扣' if strong_discount else '持續觀察')
     unit_price = round(price / float(p.get('unit_divisor', 1)), 2) if price else None
 
-    latest['products'].append({
+    item = {
         'id': p['id'], 'store': p['store'], 'store_name': p['store_name'], 'name': p['name'],
         'url': p['url'], 'price': price, 'old_price': old_price, 'discount_pct': discount_pct,
         'unit_price': unit_price, 'unit_label': p.get('unit_label',''),
         'history_low': hist_low, 'history_points': points, 'hot': hot,
-        'reason': '接近歷史低價' if near_low else ('大幅折扣' if strong_discount else '持續觀察'),
-        'source': source, 'error': error
-    })
+        'reason': reason, 'source': source, 'error': error
+    }
+    latest['products'].append(item)
+
+    st = alert_state['products'].setdefault(p['id'], {'active': False, 'last_price': None})
+    last_price = st.get('last_price')
+    should_alert = bool(hot and (not st.get('active') or last_price is None or (price is not None and price < last_price)))
+    if should_alert:
+        alerts.append(item)
+        st.update({'active': True, 'last_price': price, 'last_alert_at': datetime.now(TW).isoformat(timespec='seconds')})
+    elif not hot:
+        st.update({'active': False})
 
 save_json(HISTORY, history)
 save_json(LATEST, latest)
+save_json(ALERT_STATE, alert_state)
+save_json(ALERTS, {'generated_at': datetime.now(TW).isoformat(timespec='seconds'), 'alerts': alerts})
 
 hot = [p for p in latest['products'] if p['hot']]
-print(f'Updated {len(latest["products"])} products; hot={len(hot)}')
-for p in hot:
-    print(f'🔥 {p["name"]}: NT${p["price"]} ({p["reason"]})')
+print(f'Updated {len(latest["products"])} products; hot={len(hot)}; new_alerts={len(alerts)}')
+for p in alerts:
+    print(f'🔔 {p["name"]}: NT${p["price"]} ({p["reason"]})')
