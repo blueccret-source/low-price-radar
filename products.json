@@ -116,6 +116,15 @@
       "url": "https://www.costco.com.tw/Food-Dining/Groceries/Baking-Dried-Goods/Natures-Earthly-Choice-Chia-907-g/p/582057",
       "fallback_price": null,
       "unit_label": ""
+    },
+    {
+      "id": "亞細亞田園-冷凍生毛豆仁-1公斤-x-5入-72hbwi",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "亞細亞田園 冷凍生毛豆仁 1公斤 X 5入",
+      "url": "https://www.costco.com.tw/Food-Dining/Frozen-Fresh-Food/Frozen-Fruits-Vegetables/Asia-Frozen-Shelled-Edamame-1-kg-X-5-Pack/p/863731",
+      "fallback_price": null,
+      "unit_label": ""
     }
   ]
 }
