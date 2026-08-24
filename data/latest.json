@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T12:46:54+08:00",
+  "updated_at": "2026-08-24T18:01:02+08:00",
   "products": [
     {
       "id": "quaker-oats",
@@ -180,6 +180,24 @@
       "reason": "持續觀察",
       "source": "live",
       "error": null
+    },
+    {
+      "id": "統一生機-日曬海鹽-2kg-1袋-72fnp3",
+      "store": "custom",
+      "store_name": "酷澎",
+      "name": "統一生機 日曬海鹽, 2kg, 1袋",
+      "url": "https://www.tw.coupang.com/products/291018700210189?itemId=279103936643074&vendorItemId=279102879645701&pageType=PRODUCT&pageValue=291018700210189&wPcid=17320178790050208567203&wRef=www.google.com&wTime=20260824185913&redirect=landing&lptag=279103936643074&gclid=Cj0KCQjw16_UBhCqARIsAIdOaXzJIsyHkJFF0xFCMtQfOnu3S_dBM_Oej2JhEB52PSkFb4auD0NIUSkaAoxdEALw_wcB&af_c_id=22530808736&mcid=0bbdff2956094edca8666bfea51a101d&af_sub5=GSSDP&src=1012016&campaignid=22530808736&adgroupid=178605374825&ctag=291018700210189&spec=10505002&addtag=400&network=g",
+      "price": null,
+      "old_price": null,
+      "discount_pct": null,
+      "unit_price": null,
+      "unit_label": "",
+      "history_low": null,
+      "history_points": 0,
+      "hot": false,
+      "reason": "持續觀察",
+      "source": "fallback",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
     }
   ]
 }
