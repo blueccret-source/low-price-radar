@@ -134,6 +134,15 @@
       "url": "https://www.costco.com.tw/Business-Delivery/Food-Beverages-Pet-Supplies/Frozen-Food/Frozen-Lightly-Salted-Mackerel-4-kg/p/263665",
       "fallback_price": null,
       "unit_label": ""
+    },
+    {
+      "id": "冷凍薄鹽白腹鯖魚片-800公克-85tqi2",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "冷凍薄鹽白腹鯖魚片 800公克",
+      "url": "https://www.costco.com.tw/Food-Dining/Frozen-Fresh-Food/Frozen-Seafood-Meat/Frozen-Lightly-Salted-Mackerel-800-g/p/463663",
+      "fallback_price": null,
+      "unit_label": ""
     }
   ]
 }
