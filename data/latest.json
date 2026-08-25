@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T12:23:02+08:00",
+  "updated_at": "2026-08-25T12:23:43+08:00",
   "products": [
     {
       "id": "quaker-oats",
@@ -247,6 +247,24 @@
       "unit_price": 2199.0,
       "unit_label": "",
       "history_low": 2199.0,
+      "history_points": 1,
+      "hot": false,
+      "reason": "持續觀察",
+      "source": "live",
+      "error": null
+    },
+    {
+      "id": "冷凍薄鹽白腹鯖魚片-800公克-85tqi2",
+      "store": "costco",
+      "store_name": "COSTCO 好市多",
+      "name": "冷凍薄鹽白腹鯖魚片 800公克",
+      "url": "https://www.costco.com.tw/Food-Dining/Frozen-Fresh-Food/Frozen-Seafood-Meat/Frozen-Lightly-Salted-Mackerel-800-g/p/463663",
+      "price": 525.0,
+      "old_price": null,
+      "discount_pct": null,
+      "unit_price": 525.0,
+      "unit_label": "",
+      "history_low": 525.0,
       "history_points": 1,
       "hot": false,
       "reason": "持續觀察",
