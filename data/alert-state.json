@@ -65,12 +65,14 @@
       "last_alert_at": "2026-08-28T14:21:03+08:00"
     },
     "冷凍薄鹽白腹鯖魚-4公斤-85sun5": {
-      "active": false,
-      "last_price": null
+      "active": true,
+      "last_price": 2199.0,
+      "last_alert_at": "2026-08-29T08:12:35+08:00"
     },
     "冷凍薄鹽白腹鯖魚片-800公克-85tqi2": {
-      "active": false,
-      "last_price": null
+      "active": true,
+      "last_price": 525.0,
+      "last_alert_at": "2026-08-29T08:12:35+08:00"
     }
   }
 }
