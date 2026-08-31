@@ -35,6 +35,11 @@
         "date": "2026-08-30",
         "price": 439.0,
         "source": "live"
+      },
+      {
+        "date": "2026-08-31",
+        "price": 439.0,
+        "source": "live"
       }
     ],
     "greenme-brown-rice": [
@@ -70,6 +75,11 @@
       },
       {
         "date": "2026-08-30",
+        "price": 359.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-08-31",
         "price": 359.0,
         "source": "live"
       }
@@ -109,6 +119,11 @@
         "date": "2026-08-30",
         "price": 419.0,
         "source": "live"
+      },
+      {
+        "date": "2026-08-31",
+        "price": 419.0,
+        "source": "live"
       }
     ],
     "therabreath-icy-mint": [
@@ -144,6 +159,11 @@
       },
       {
         "date": "2026-08-30",
+        "price": 775.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-08-31",
         "price": 775.0,
         "source": "live"
       }
@@ -183,6 +203,11 @@
         "date": "2026-08-30",
         "price": 1099.0,
         "source": "live"
+      },
+      {
+        "date": "2026-08-31",
+        "price": 1099.0,
+        "source": "live"
       }
     ],
     "born-good-rice": [
@@ -220,6 +245,11 @@
         "date": "2026-08-30",
         "price": 199.0,
         "source": "live"
+      },
+      {
+        "date": "2026-08-31",
+        "price": 199.0,
+        "source": "live"
       }
     ],
     "老食萃-有機枸杞-5lpqyt": [
@@ -252,6 +282,11 @@
         "date": "2026-08-30",
         "price": 519.0,
         "source": "live"
+      },
+      {
+        "date": "2026-08-31",
+        "price": 519.0,
+        "source": "live"
       }
     ],
     "哆啦a夢輕巧褲-日本境內版-m號-216片-5lu7u9": [
@@ -282,6 +317,11 @@
       },
       {
         "date": "2026-08-30",
+        "price": 1049.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-08-31",
         "price": 1049.0,
         "source": "live"
       }
@@ -317,6 +357,11 @@
         "date": "2026-08-30",
         "price": 615.0,
         "source": "live"
+      },
+      {
+        "date": "2026-08-31",
+        "price": 615.0,
+        "source": "live"
       }
     ],
     "thinkbaby-新寶貝純物理防曬霜-spf-50-89毫升-x-2入-5mczgs": [
@@ -349,6 +394,11 @@
         "date": "2026-08-30",
         "price": 397.0,
         "source": "live"
+      },
+      {
+        "date": "2026-08-31",
+        "price": 397.0,
+        "source": "live"
       }
     ],
     "統一生機-日曬海鹽-2kg-1袋-72fnp3": [],
@@ -375,6 +425,11 @@
       },
       {
         "date": "2026-08-30",
+        "price": 319.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-08-31",
         "price": 319.0,
         "source": "live"
       }
@@ -404,6 +459,11 @@
         "date": "2026-08-30",
         "price": 819.0,
         "source": "live"
+      },
+      {
+        "date": "2026-08-31",
+        "price": 819.0,
+        "source": "live"
       }
     ],
     "冷凍薄鹽白腹鯖魚-4公斤-85sun5": [
@@ -424,6 +484,11 @@
       },
       {
         "date": "2026-08-30",
+        "price": 2199.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-08-31",
         "price": 2199.0,
         "source": "live"
       }
@@ -447,6 +512,11 @@
       {
         "date": "2026-08-30",
         "price": 525.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-08-31",
+        "price": 425.0,
         "source": "live"
       }
     ]
