@@ -31,19 +31,19 @@
       "last_alert_at": "2026-08-24T11:11:16+08:00"
     },
     "老食萃-有機枸杞-5lpqyt": {
-      "active": false,
+      "active": true,
       "last_price": 519.0,
-      "last_alert_at": "2026-08-28T14:21:02+08:00"
+      "last_alert_at": "2026-09-17T08:26:51+08:00"
     },
     "哆啦a夢輕巧褲-日本境內版-m號-216片-5lu7u9": {
-      "active": false,
+      "active": true,
       "last_price": 1049.0,
-      "last_alert_at": "2026-08-28T14:21:02+08:00"
+      "last_alert_at": "2026-09-17T08:26:52+08:00"
     },
     "米森-有機黑芝麻粉-500g-2包-5ma99w": {
-      "active": false,
+      "active": true,
       "last_price": 615.0,
-      "last_alert_at": "2026-08-28T14:21:03+08:00"
+      "last_alert_at": "2026-09-17T08:26:52+08:00"
     },
     "thinkbaby-新寶貝純物理防曬霜-spf-50-89毫升-x-2入-5mczgs": {
       "active": false,
@@ -55,24 +55,24 @@
       "last_price": null
     },
     "nature-s-earthly-choice-奇亞籽-鼠尾草籽-907公克-72gs1e": {
-      "active": false,
+      "active": true,
       "last_price": 319.0,
-      "last_alert_at": "2026-08-28T14:21:03+08:00"
+      "last_alert_at": "2026-09-17T08:26:53+08:00"
     },
     "亞細亞田園-冷凍生毛豆仁-1公斤-x-5入-72hbwi": {
-      "active": false,
+      "active": true,
       "last_price": 819.0,
-      "last_alert_at": "2026-08-28T14:21:03+08:00"
+      "last_alert_at": "2026-09-17T08:26:53+08:00"
     },
     "冷凍薄鹽白腹鯖魚-4公斤-85sun5": {
-      "active": false,
+      "active": true,
       "last_price": 2199.0,
-      "last_alert_at": "2026-08-29T08:12:35+08:00"
+      "last_alert_at": "2026-09-17T08:26:54+08:00"
     },
     "冷凍薄鹽白腹鯖魚片-800公克-85tqi2": {
-      "active": false,
+      "active": true,
       "last_price": 425.0,
-      "last_alert_at": "2026-08-31T08:13:21+08:00"
+      "last_alert_at": "2026-09-17T08:26:54+08:00"
     }
   }
 }
