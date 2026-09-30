@@ -185,6 +185,11 @@
         "date": "2026-09-29",
         "price": 439.0,
         "source": "live"
+      },
+      {
+        "date": "2026-09-30",
+        "price": 439.0,
+        "source": "fallback"
       }
     ],
     "greenme-brown-rice": [
@@ -372,6 +377,11 @@
         "date": "2026-09-29",
         "price": 359.0,
         "source": "live"
+      },
+      {
+        "date": "2026-09-30",
+        "price": 359.0,
+        "source": "fallback"
       }
     ],
     "maestro-olive-oil": [
@@ -559,6 +569,11 @@
         "date": "2026-09-29",
         "price": 419.0,
         "source": "live"
+      },
+      {
+        "date": "2026-09-30",
+        "price": 419.0,
+        "source": "fallback"
       }
     ],
     "therabreath-icy-mint": [
@@ -744,6 +759,11 @@
       },
       {
         "date": "2026-09-29",
+        "price": 775.0,
+        "source": "fallback"
+      },
+      {
+        "date": "2026-09-30",
         "price": 775.0,
         "source": "fallback"
       }
@@ -933,6 +953,11 @@
         "date": "2026-09-29",
         "price": 1099.0,
         "source": "live"
+      },
+      {
+        "date": "2026-09-30",
+        "price": 1099.0,
+        "source": "fallback"
       }
     ],
     "born-good-rice": [
@@ -1118,6 +1143,11 @@
       },
       {
         "date": "2026-09-29",
+        "price": 199.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-09-30",
         "price": 199.0,
         "source": "live"
       }
