@@ -285,6 +285,11 @@
         "date": "2026-10-19",
         "price": 439.0,
         "source": "live"
+      },
+      {
+        "date": "2026-10-20",
+        "price": 439.0,
+        "source": "live"
       }
     ],
     "greenme-brown-rice": [
@@ -570,6 +575,11 @@
       },
       {
         "date": "2026-10-19",
+        "price": 359.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-10-20",
         "price": 359.0,
         "source": "live"
       }
@@ -859,6 +869,11 @@
         "date": "2026-10-19",
         "price": 419.0,
         "source": "live"
+      },
+      {
+        "date": "2026-10-20",
+        "price": 419.0,
+        "source": "live"
       }
     ],
     "therabreath-icy-mint": [
@@ -1144,6 +1159,11 @@
       },
       {
         "date": "2026-10-19",
+        "price": 775.0,
+        "source": "fallback"
+      },
+      {
+        "date": "2026-10-20",
         "price": 775.0,
         "source": "fallback"
       }
@@ -1433,6 +1453,11 @@
         "date": "2026-10-19",
         "price": 1099.0,
         "source": "live"
+      },
+      {
+        "date": "2026-10-20",
+        "price": 1099.0,
+        "source": "live"
       }
     ],
     "born-good-rice": [
@@ -1720,6 +1745,11 @@
         "date": "2026-10-19",
         "price": 199.0,
         "source": "fallback"
+      },
+      {
+        "date": "2026-10-20",
+        "price": 199.0,
+        "source": "fallback"
       }
     ],
     "老食萃-有機枸杞-5lpqyt": [
@@ -1975,6 +2005,11 @@
       },
       {
         "date": "2026-10-19",
+        "price": 519.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-10-20",
         "price": 519.0,
         "source": "live"
       }
@@ -2234,6 +2269,11 @@
         "date": "2026-10-19",
         "price": 1049.0,
         "source": "live"
+      },
+      {
+        "date": "2026-10-20",
+        "price": 1049.0,
+        "source": "live"
       }
     ],
     "moccona-中烘焙即溶咖啡粉-400公克-5m4g21": [],
@@ -2490,6 +2530,11 @@
       },
       {
         "date": "2026-10-19",
+        "price": 615.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-10-20",
         "price": 615.0,
         "source": "live"
       }
@@ -2785,6 +2830,11 @@
       },
       {
         "date": "2026-10-19",
+        "price": 319.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-10-20",
         "price": 319.0,
         "source": "live"
       }
@@ -3226,6 +3276,11 @@
         "date": "2026-10-19",
         "price": 2199.0,
         "source": "live"
+      },
+      {
+        "date": "2026-10-20",
+        "price": 2199.0,
+        "source": "live"
       }
     ],
     "冷凍薄鹽白腹鯖魚片-800公克-85tqi2": [
@@ -3471,6 +3526,11 @@
       },
       {
         "date": "2026-10-19",
+        "price": 525.0,
+        "source": "live"
+      },
+      {
+        "date": "2026-10-20",
         "price": 525.0,
         "source": "live"
       }
